@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\school\\DevOps & Security\\DevOps-SecurityCase4_MyAnimelist\\MyAnimelist\\MyAnimelist.csproj": {}
+  },
+  "projects": {
+    "D:\\school\\DevOps & Security\\DevOps-SecurityCase4_MyAnimelist\\MyAnimelist\\MyAnimelist.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\school\\DevOps & Security\\DevOps-SecurityCase4_MyAnimelist\\MyAnimelist\\MyAnimelist.csproj",
+        "projectName": "MyAnimelist",
+        "projectPath": "D:\\school\\DevOps & Security\\DevOps-SecurityCase4_MyAnimelist\\MyAnimelist\\MyAnimelist.csproj",
+        "packagesPath": "C:\\Users\\xiang\\.nuget\\packages\\",
+        "outputPath": "D:\\school\\DevOps & Security\\DevOps-SecurityCase4_MyAnimelist\\MyAnimelist\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.16, 3.1.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.16, 3.1.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.16, 3.1.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
